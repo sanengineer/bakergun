@@ -1,36 +1,33 @@
 /* Bootstrap Override */
 .btn-primary {
-
   color: #fff;
   background-color: transparent;
   border-color: transparent;
+}
 
+.btn-primary:focus {
+  background-color: #ffc106;
+  border-color: transparent;
+  -webkit-box-shadow: 0 0 0 0.2rem #b68c0d7a;
+          box-shadow: 0 0 0 0.2rem #b68c0d7a;
+}
 
+.btn-primary:focus:hover {
+  background-color: #ffc106;
+  border-color: transparent;
+}
 
-  &:focus {
-    background-color: #ffc106;
-    border-color: transparent;
-    box-shadow: 0 0 0 0.2rem #b68c0d7a;
-
-    &:hover {
-      background-color: #ffc106;
-      border-color: transparent;
-    }
-  }
-
-  &:hover {
-    background-color: transparent;
-    border-color: transparent;
-  }
-
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .my-class {
   background-color: #ffc106;
   border-color: transparent;
-  box-shadow: 0 0 0 0.2rem #b68c0d7a;
+  -webkit-box-shadow: 0 0 0 0.2rem #b68c0d7a;
+          box-shadow: 0 0 0 0.2rem #b68c0d7a;
 }
-
 
 .btn-primary:not(:disabled):not(.disabled):active {
   color: transparent;
@@ -39,8 +36,8 @@
 }
 
 .btn-dark {
-  color: rgb(255, 255, 255);
-  background-color: rgb(13, 192, 22);
+  color: white;
+  background: linear-gradient(148.43deg, #676767 -1.04%, rgba(103, 103, 103, 0.395833) 60.25%, rgba(103, 103, 103, 0.34) 120.28%);
 }
 
 /* Main Style */
@@ -50,12 +47,12 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   min-width: 100vw;
 }
 
 .home-section {
-  background-color: rgb(31, 31, 31);
+  background-color: #1f1f1f;
   padding-top: 25vh;
   min-height: 100vh;
   margin: auto;
@@ -72,12 +69,11 @@ body {
 }
 
 .text-status {
-  padding: 20px
+  padding: 20px;
 }
 
 .game-section {
   position: relative;
-  top: 8vh;
 }
 
 .player {
@@ -88,3 +84,4 @@ body {
 #rc {
   background-color: red;
 }
+/*# sourceMappingURL=style.css.map */

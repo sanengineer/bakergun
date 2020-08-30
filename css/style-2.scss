@@ -1,0 +1,67 @@
+.btn {
+    border-radius: 10px;
+}
+
+.game-media-query {
+    width: 768px;
+    height: 100vh;
+    margin: auto;
+    background-color: 212121;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.score-board {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.game-play {
+    margin-top: 100px;
+}
+
+// .hand-choice {
+    //     position: relative;
+    // }
+
+    // .human-hand-start {
+    //     position: absolute;
+    //     right: 0;
+    //     top: 20px;
+    // }
+
+    // .human-hand-choice {
+    //     position: absolute;
+    //     right: 0;
+    // }
+
+
+
+
+    // .bot-choice {
+    //     position: relative;
+    // }
+
+    // .bot-hand-start {
+    //     position: absolute;
+    //     left: 0;
+    //     top: 20px;
+    // }
+
+    // .bot-hand-choice {
+    //     position: absolute;
+    //     left: 0;
+    // }
+
+// .bot-face {
+    //     position: absolute;
+    //     right: 90px;
+    // }
+
+.bottom-nav {
+    overflow: hidden;
+    background-color: #181818;
+    width: 768px;
+    margin: auto;
+    border-radius: 20px;
+}

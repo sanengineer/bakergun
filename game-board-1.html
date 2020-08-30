@@ -24,7 +24,7 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="js/logic.js"></script>
+    <script src="js/app.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -55,10 +55,10 @@
     </nav>
     <section class="game-section col-lg-12" id="gameSection">
       <div class="game-bg">
-        <div class="game-content container text-center text-white">
+        <div class="game-play container text-center text-white">
         <div class="h6 mb-4">Choose Your Hand</div>
           <div class="player-choices d-flex justify-content-between" id="Human">
-            <a href="#"  class="coice btn btn-primary" id="humanChoose" onclick="getBotFocus();">
+            <a href="#"  class="coice btn btn-primary" id="humanChoose" value="Rock">
                 <img
                 src="/assets/images/rock-hand.png"
                 alt="Rock Hand Images"
@@ -66,7 +66,7 @@
                 height="50"
               />
             </a>
-            <a href="#"  class="coice btn btn-primary" id="humanChoose" onclick="getBotFocus();">
+            <a href="#"  class="coice btn btn-primary" id="humanChoose" value="Paper">
                 <img
                 src="/assets/images/paper-hand.png"
                 alt="Rock Hand Images"
@@ -74,7 +74,7 @@
                 height="50"
               />
             </a>
-            <a href="#"  class="coice btn btn-primary" id="humanChoose" onclick="getBotFocus();">
+            <a href="#"  class="coice btn btn-primary" id="humanChoose" value="Scissors">
                 <img
                 src="/assets/images/scissors-hand.png"
                 alt="Rock Hand Images"

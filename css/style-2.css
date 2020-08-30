@@ -1,0 +1,30 @@
+.btn {
+  border-radius: 10px;
+}
+
+.game-media-query {
+  width: 768px;
+  height: 100vh;
+  margin: auto;
+  background-color: 212121;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.score-board {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.game-play {
+  margin-top: 100px;
+}
+
+.bottom-nav {
+  overflow: hidden;
+  background-color: #181818;
+  width: 768px;
+  margin: auto;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style-2.css.map */
