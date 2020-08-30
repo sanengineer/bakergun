@@ -20,9 +20,9 @@ function getBotFocus() {
   //   var childBotButton = document.getElementById("Bot").childNodes;
 
   var c = Math.floor(Math.random() * 3);
-  //   document.getElementById("Bot").children[c].focus();
+  document.getElementById("Bot").children[c].focus();
 
-  document.getElementById("Bot").children[c].classList.add(".active");
+  //   document.getElementById("Bot").children[c].classList.add("my-class");
   //   document.getElementById("Bot").children[c].classList.remove("my-class");
   //   document.getElementById("Bot").children[c].classList.add("my-class");
 }
