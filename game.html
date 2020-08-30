@@ -1,0 +1,122 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Icon Game - Binar Academy Challange</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/logic.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css " />
+  </head>
+  <body>
+    <nav
+      class="top-nav navbar navbar-expand-lg navbar-dark sticky-top pt-3 pb-3"
+    >
+      <div class="container">
+        <button
+          type="button"
+          class="playnow-button btn btn-warning mt-3 mb-3 font-weight-bolder"
+          onclick="document.location='index.html'"
+        >
+          Back Home
+        </button>
+        <button
+        type="button"
+        class="playnow-button btn btn-warning mt-3 mb-3 font-weight-bolder"
+        onclick="document.location='index.html'"
+      >
+        Try Again
+      </button>
+        </div>
+      </div>
+    </nav>
+    <section class="game-section col-lg-12" id="gameSection">
+      <div class="game-bg">
+        <div class="game-content container text-center text-white">
+        <div class="h6 mb-4">Choose Your Hand</div>
+          <div class="player-choices d-flex justify-content-between" id="Human">
+            <a href="#"  class="coice btn btn-primary" id="humanChoose" onclick="getBotFocus();">
+                <img
+                src="/assets/images/rock-hand.png"
+                alt="Rock Hand Images"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="#"  class="coice btn btn-primary" id="humanChoose" onclick="getBotFocus();">
+                <img
+                src="/assets/images/paper-hand.png"
+                alt="Rock Hand Images"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="#"  class="coice btn btn-primary" id="humanChoose" onclick="getBotFocus();">
+                <img
+                src="/assets/images/scissors-hand.png"
+                alt="Rock Hand Images"
+                width="50"
+                height="50"
+              />
+            </a>
+          </div>
+          <div class="status-screen d-flex justify-content-center">
+              <div class="text-status align-self-center">
+                  TEXT STATUS
+              </div>
+          </div>
+          <div class="h6 mb-4">Bot Hand</div>
+          <div class="player d-flex justify-content-between" id="Bot">
+            <a href="#" class="coice btn btn-primary">
+                <img
+                src="/assets/images/rock-hand.png"
+                alt="Rock Hand Images"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="#" class="coice btn btn-primary">
+                <img
+                src="/assets/images/paper-hand.png"
+                alt="Rock Hand Images"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="#" class="coice btn btn-primary">
+                <img
+                src="/assets/images/scissors-hand.png"
+                alt="Rock Hand Images"
+                width="50"
+                height="50"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
