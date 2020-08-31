@@ -24,7 +24,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="js/game-board-2.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -57,7 +56,7 @@
               <button
                 type="button"
                 class="human-button-choose playnow-button btn btn-dark mt-3 mb-3 font-weight-bolder"
-                id="humanChoose"
+                id="humanButtonHandRock"
                 value="Rock"
               >
                 <img
@@ -72,7 +71,7 @@
               <button
                 type="button"
                 class="human-button-choose playnow-button btn btn-dark mt-3 mb-3 font-weight-bolder"
-                id="humanChoose"
+                id="humanButtonHandPaper"
                 value="Paper"
               >
                 <img
@@ -87,7 +86,7 @@
               <button
                 type="button"
                 class="human-button-choose playnow-button btn btn-dark mt-3 mb-3 font-weight-bolder"
-                id="humanChoose"
+                id="humanButtonHandScissors"
                 value="Scissors"
               >
                 <img
@@ -102,6 +101,7 @@
               <button
                 type="button"
                 class="playnow-button btn btn-warning mt-3 mb-3 font-weight-bolder"
+                onclick="window.location.reload()"
               >
                 <img
                   src="/assets/icons/new-round-icon.png"
@@ -184,14 +184,14 @@
         <div class="game-bg">
           <div class="score-board">
             <div class="container pt-4">
-              <div class="row justify-content-center mb-4">
+              <div class="row justify-content-center">
                 <h1 class="h4 text-white">Score Board</h1>
               </div>
-              <div class="row justify-content-center mb-4">
-                <div class="col-6 win-lose-draw-status">
-                  <div class="card bg-warning text-center">
+              <div class="row justify-content-center mb-2">
+                <div class="col-4 win-lose-draw-status">
+                  <div class="card bg-dark text-center">
                     <div
-                      class="win-lose-draw-status card-header bg-danger"
+                      class="win-lose-draw-status card-header text-white font-weight-bold"
                       id="winLoseDrawStatus"
                     >
                       YOU WIN
@@ -201,19 +201,27 @@
               </div>
 
               <div class="row justify-content-center">
-                <div class="col-3 human-score">
-                  <div class="card bg-warning text-center">
-                    <div class="card-header bg-danger">YOU</div>
+                <div class="col-2 human-score">
+                  <div class="card text-center">
+                    <div
+                      class="card-header bg-danger text-white font-weight-bold h4"
+                    >
+                      YOU
+                    </div>
                     <div class="card-body">
-                      <p class="card-text" id="humanScore">20</p>
+                      <p class="card-text h2" id="humanScore">20</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-3 bot-score">
-                  <div class="card bg-warning text-center">
-                    <div class="card-header bg-danger">COM</div>
+                <div class="col-2 bot-score">
+                  <div class="card text-center">
+                    <div
+                      class="card-header bg-danger text-white font-weight-bold h4"
+                    >
+                      COM
+                    </div>
                     <div class="card-body">
-                      <p class="card-text" id="botScore">20</p>
+                      <p class="card-text h2" id="botScore">20</p>
                     </div>
                   </div>
                 </div>
@@ -240,7 +248,7 @@
                   <a
                     href="#"
                     class="human-hand-choice btn btn-primary"
-                    id="humanHandChoose"
+                    id="humanHandRock"
                   >
                     <img
                       src="/assets/images/rock-hand.png"
@@ -252,7 +260,7 @@
                   <a
                     href="#"
                     class="human-hand-choice btn btn-primary"
-                    id="humanHandChoose"
+                    id="humanHandPaper"
                     value="Paper"
                   >
                     <img
@@ -265,7 +273,7 @@
                   <a
                     href="#"
                     class="human-hand-choice btn btn-primary"
-                    id="humanHandChoose"
+                    id="humanHandScissors"
                     value="Scissors"
                   >
                     <img
@@ -297,7 +305,7 @@
                       <a
                         href="#"
                         class="bot-hand-choice btn btn-primary"
-                        id="botHandChoose"
+                        id="botHandRock"
                         value="Rock"
                       >
                         <img
@@ -310,7 +318,7 @@
                       <a
                         href="#"
                         class="bot-hand-choice btn btn-primary"
-                        id="botHandChoose"
+                        id="botHandPaper"
                         value="Paper"
                       >
                         <img
@@ -323,7 +331,7 @@
                       <a
                         href="#"
                         class="bot-hand-choice btn btn-primary"
-                        id="botHandChoose"
+                        id="botHandScissors"
                         value="Scissors"
                       >
                         <img
@@ -350,5 +358,6 @@
         </div>
       </section>
     </div>
+    <script src="js/game-board-2.js"></script>
   </body>
 </html>

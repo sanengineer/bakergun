@@ -2,14 +2,14 @@
 
 ![ui-image-game-board!](https://github.com/sanengineer/bakergun/blob/master/game-board-ui.jpg)
 
-Bakergun is acronim from Batu Kertas Gunting, in Bahasa Batu means Rock, Kertas measn Paper and Gunting means Scissors. 
+Bakergun adalah akronim dari Batu Kertas Gunting.
 
-What's the trouble? Make the logic check it out 😭, because I'm just learning to be a software engineer, maybe the solution is to practice often 🤔.
+Apa tantangan yang dihadapi? bikin logikanya cucah cekali 😭, karena saya baru belajar ngoding mungkin solusinya sering praktek 👨🏽‍💻.
 
 > *"Practice Makes Perfects"*
 
 
-How to make a UI (HTML, CSS)? It's So Ezzzy for me 😜 no trouble 🤣 🤣 🤣.
+Tapi Bikin HTML CSS dilalui dengan sangat ezzzzyy 🙊.
 
 -----
 ###### Link :
