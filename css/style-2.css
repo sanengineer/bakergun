@@ -31,9 +31,14 @@
 
 /**Game Board Style**/
 .game-media-query {
-  width: 768px;
-  height: 100vh;
-  margin: auto;
+  width: 100%;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
+  min-height: 100vh;
   background-color: 212121;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -74,6 +79,10 @@
   display: none;
 }
 
+.visibility-human-hand {
+  display: block !important;
+}
+
 /**Visble Bot Hand Style**/
 .bot-choice {
   position: relative;
@@ -96,16 +105,31 @@
   display: none;
 }
 
+.visibility-bot-hand {
+  display: block;
+}
+
 .bot-face {
   position: absolute;
   right: 90px;
 }
 
+/**Nav Footer Style**/
 .bottom-nav {
   overflow: hidden;
   background-color: #181818;
   width: 768px;
   margin: auto;
   border-radius: 20px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 768px) {
+  .game-media-query {
+    max-width: none;
+  }
+  .bot-face {
+    right: 60px;
+  }
 }
 /*# sourceMappingURL=style-2.css.map */
