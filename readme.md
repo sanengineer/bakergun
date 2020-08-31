@@ -22,7 +22,7 @@ Banyak kerungan dari game ini :
 2. Kalau pemain tidak mengikuti cara bermain yang sudah dijelaskan diatas. maka akan terjadi seperti gambar dibawah ini.
 
 
-   ![bugs-game!](/bugs-game-TT.gif)
+   ![bugs-game!](/bugs-game-TT-sm.gif)
 
 
    Setelah keluar hasil pilihan masing masing player dan bot kemudian pemain menekan tombol batu atau kertas atau gunting maka akan terjadi penumpukan icon di layar.
