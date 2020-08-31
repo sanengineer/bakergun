@@ -15,7 +15,7 @@ Cara Bermain :
 
 Cara bermain harus dilakukan seperti urutan diatas, tidak boleh tidak 🙊. 
 
-Banyak kerungan dari game ini :
+Banyak kekurangan dari game ini :
 1. Belum bisa menampilkan status pesan siapa yang menang ataupun kalah apalagi draw.
 
 
