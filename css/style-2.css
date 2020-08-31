@@ -1,6 +1,7 @@
 /**Override Boostrapt Style**/
 .btn {
-  border-radius: 10px;
+  border-radius: 15px;
+  padding: 1rem 1rem;
 }
 
 .bg-dark {
@@ -16,6 +17,7 @@
 .card {
   border-radius: 10px;
   overflow: hidden;
+  border: unset;
 }
 
 .card-body {
@@ -24,6 +26,7 @@
 
 .card-header {
   padding: 8px 10px;
+  border: unset;
 }
 
 /**Game Board Style**/

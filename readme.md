@@ -12,5 +12,6 @@ Apa tantangan yang dihadapi? bikin logikanya cucah cekali 😭, karena saya baru
 Tapi Bikin HTML CSS dilalui dengan sangat ezzzzyy 🙊.
 
 -----
-###### Link :
- - ###### https://www.figma.com/file/LcJvUL3iMNdFZ9lsLu0XHq/Untitled?node-id=1%3A2
+###### Link Desain UI : https://www.figma.com/file/LcJvUL3iMNdFZ9lsLu0XHq/Untitled?node-id=1%3A2
+
+###### Link Project Result : https://c1f4v.csb.app/
