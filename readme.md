@@ -6,7 +6,7 @@ Bakergun is acronim from Batu Kertas Gunting, in Bahasa Batu means Rock, Kertas 
 
 What's the trouble? Make the logic check it out 😭, because I'm just learning to be a software engineer, maybe the solution is to practice often 🤔.
 
-> *"Practice Make Perfects"*
+> *"Practice Makes Perfects"*
 
 
 How to make a UI (HTML, CSS)? It's So Ezzzy for me 😜 no trouble 🤣 🤣 🤣.
